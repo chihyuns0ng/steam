@@ -88,7 +88,7 @@ pip install pandas numpy matplotlib seaborn jupyter
 jupyter notebook
 ```
 
-`steam.ipynb` 또는 `steam_analysis.ipynb`를 순서대로 실행하면 됩니다.
+`steam.ipynb` 또는 `steam_analysis.ipynb` 실행
 
 ---
 
