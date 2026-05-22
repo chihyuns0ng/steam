@@ -1,6 +1,6 @@
 # 🎮 Steam Market Analysis
 
-> Steam 게임 플랫폼 데이터를 분석한 인터랙티브 대시보드 포트폴리오 프로젝트
+> Steam 게임 플랫폼 데이터 분석 프로젝트
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-blue?style=flat-square)](https://chihyuns0ng.github.io/steam/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
@@ -51,7 +51,7 @@ steam/
 ├── steam.ipynb           # 데이터 전처리 및 EDA 노트북
 ├── steam_analysis.ipynb  # 심화 분석 및 시각화 노트북
 ├── games.csv             # Steam 게임 원본 데이터셋
-├── docs/                 # GitHub Pages 배포 파일 (인터랙티브 대시보드)
+├── docs/                 # GitHub Pages 배포 파일
 └── README.md
 ```
 
@@ -63,14 +63,14 @@ steam/
 |------|-----------|
 | 데이터 분석 | Python, Pandas, NumPy |
 | 시각화 (노트북) | Matplotlib, Seaborn |
-| 인터랙티브 대시보드 | Chart.js v4, HTML/CSS/JavaScript |
+| 대시보드 | Chart.js v4, HTML/CSS/JavaScript |
 | 배포 | GitHub Pages |
 
 ---
 
 ## 🚀 시작하기
 
-### 인터랙티브 대시보드 바로 보기
+### 대시보드 바로 가기
 
 👉 **[https://chihyuns0ng.github.io/steam/](https://chihyuns0ng.github.io/steam/)**
 
