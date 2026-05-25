@@ -48,7 +48,7 @@ $5~10 구간이 긍정 리뷰 비율 79.7%로 가장 높음. $40+ 고가 게임�
 
 ```
 steam/
-├── steam.ipynb           # 데이터 전처리 및 EDA 노트북
+├── steam_preprocessing.ipynb           # 데이터 전처리 및 EDA 노트북
 ├── steam_analysis.ipynb  # 심화 분석 및 시각화 노트북
 ├── games.csv             # Steam 게임 원본 데이터셋
 ├── docs/                 # GitHub Pages 배포 파일
@@ -88,7 +88,7 @@ pip install pandas numpy matplotlib seaborn jupyter
 jupyter notebook
 ```
 
-`steam.ipynb` 또는 `steam_analysis.ipynb` 실행
+`steam_preprocessing.ipynb` 실행 → 완료 시 df.csv 파일 자동 생성 →  `steam_analysis.ipynb` 실행
 
 ---
 
