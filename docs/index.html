@@ -531,7 +531,7 @@
     <div class="dataset-info">
       데이터셋 · Steam Games Dataset (Kaggle)<br>
       수집 게임 수 · 122,611 titles<br>
-      분석 기간 · 2003 — 2026<br>
+      분석 기간 · 2003 — 2025<br>
       평점 지표 · 긍정 리뷰 비율 (Steam Reviews)
     </div>
   </div>
@@ -575,7 +575,7 @@
       <div class="card-header">
         <div>
           <div class="card-title">연도별 게임 출시량 추이</div>
-          <div class="card-subtitle">2003 — 2026 · 전체 타이틀 기준</div>
+          <div class="card-subtitle">2003 — 2025 · 전체 타이틀 기준</div>
         </div>
         <span class="card-badge badge-blue">TREND</span>
       </div>
@@ -758,7 +758,7 @@
     </div>
     <div class="insight-card" style="--ins-color: var(--accent2)">
       <div class="insight-label">// 가격-리뷰 상관</div>
-      <div class="insight-text">$5~10 구간이 긍정 리뷰 비율 79.7%로 가장 높음. $40+ 고가 게임은 오히려 63.1%로 최저 — 높은 기대치가 평가에 부정적으로 작용하는 패턴.</div>
+      <div class="insight-text">$5~10 구간이 긍정 리뷰 비율 77.3%로 가장 높음. $50+ 고가 게임은 오히려 55.2%로 최저 — 높은 기대치가 평가에 부정적으로 작용하는 패턴.</div>
     </div>
     <div class="insight-card" style="--ins-color: var(--accent3)">
       <div class="insight-label">// 장르 트렌드</div>
@@ -775,16 +775,16 @@
 
 <script>
 // ---- REAL DATA (Steam Games Dataset · Kaggle · 122,611 titles) ----
-const YEARS = ['03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26'];
-const RELEASE_COUNT = [3,6,7,69,90,158,321,255,260,322,467,1523,2515,4141,5920,7461,7242,8804,11067,12284,14596,20031,24973,84];
-const AVG_PRICE_YEAR = [3.24,1.99,2.44,2.39,2.49,2.49,3.29,2.69,2.99,3.29,2.99,2.99,2.99,2.99,2.99,2.99,2.99,2.99,2.99,3.19,3.74,3.91,4.49,4.19];
+const YEARS = ['03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25'];
+const RELEASE_COUNT = [3,6,7,69,90,158,321,255,260,322,467,1523,2515,4141,5920,7461,7242,8804,11067,12284,14596,20031,24973];
+const AVG_PRICE_YEAR = [3.24,1.99,2.44,2.39,2.49,2.49,3.29,2.69,2.99,3.29,2.99,2.99,2.99,2.99,2.99,2.99,2.99,2.99,2.99,3.19,3.74,3.91,4.49];
 
 const GENRES = ['Indie','Casual','Action','Adventure','Simulation','Strategy','RPG','Free To Play'];
 const GENRES_KO = ['인디','캐주얼','액션','어드벤처','시뮬레이션','전략','RPG','무료플레이'];
 const GENRE_COUNTS = [80630, 50210, 46220, 45141, 24114, 22400, 20972, 12172];
 
-const PRICE_LABELS = ['무료','$0~5','$5~10','$10~20','$20~40','$40+'];
-const PRICE_SCORES = [75.3, 76.7, 79.7, 79.0, 77.1, 63.1];
+const PRICE_LABELS = ['무료','$0~5','$5~10','$10~20','$20~50','$50+'];
+const PRICE_SCORES = [75.5, 75.7, 77.3, 76.1, 72.4, 55.2];
 const PRICE_COUNTS = [26206, 65400, 19240, 9292, 1719, 754];
 
 const YEAR_SCORES = null; // 연도별 메타크리틱은 데이터 부족으로 긍정리뷰 비율로 대체
